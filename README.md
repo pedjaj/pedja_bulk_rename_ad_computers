@@ -36,7 +36,9 @@ Powershell mora biti preko v3.0
 4.	Pripremi se adc.csv  - delimiter mora biti „ , “
 
 oldname,newname
+
 WEDSKS0022,RKVKS0110
+
 WEDSKS0117,RKVKS1413
 
 5.	.\pedja_bulk_rename_adc.ps1
