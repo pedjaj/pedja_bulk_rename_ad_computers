@@ -1,5 +1,6 @@
 # pedja_bulk_rename_adc
-powershell bulk rename computers in ad with test
+powershell bulk rename computers in ad with test is pc online adn is new name already taken
+
 
 For windows  7,8,10,11 i server 2008>
 Powershell > v3.0 
