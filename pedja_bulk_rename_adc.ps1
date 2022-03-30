@@ -14,7 +14,6 @@ u csv-u : oldname,newname
 
 #>
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force;
-#$computers = import-csv -Path "C:\cs\bulk_rename_adc\adc.csv"
 $computers = import-csv -Path ".\adc.csv"
 $Credential = Get-Credential
 $nisuprosli=".\nisuprosli $(get-date -f dd-MM-yyyy-HHMM).csv"
