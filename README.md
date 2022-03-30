@@ -24,8 +24,6 @@ Powershell script frstly check is PC online and is new name maybe taken and then
 
 
 
-
-
 Od windowsa  7,8,10,11 i servera 2008>
 Powershell mora biti preko v3.0 
 
@@ -45,7 +43,5 @@ WEDSKS0117,RKVKS1413
 
 Powershell skripta preimenovaće računare po adc.csv-u, proveri prvo da li je PC online ili ne, pa proveri da li novo ime možda postoji na mreži, pa tek onda vrši rename računara uz restart.
 
-Problem: na nekoliko pc sa windows 7 je izvršen rename u domenu, ali na pc je ostalo staro ime (ima neke veze sa vremenom). Ovo se rešava tako što se taj pc isčlani iz domena, promeni mu se ime manuelno i opet učlani u domen.
-Na velikoj većini win7 pc i na svim win10 pc nije bilo problema.
 
 Pozdrav
