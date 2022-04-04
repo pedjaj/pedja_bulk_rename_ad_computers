@@ -29,7 +29,7 @@ foreach ($pc in $computers){
       Rename-computer -computername $pc.oldname -newname $pc.newname -domaincredential $Credential -PassThru -force -restart #-WhatIf   
          }
     else {
-    write-host "PC $($pc.oldname) nije dostupan ili vec postoji $($pc.newname)" -ForegroundColor Yellow
+    write-host "PC $($pc.oldname) is not available or already exists $($pc.newname)" -ForegroundColor Yellow
     $makecsv="$($pc.oldname),$($pc.newname)" | Out-File $nisuprosli -Encoding utf8 -Append
     }
 
